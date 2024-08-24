@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #334834;
+}
+
+header{
+    background: url(image/home\ pg.avif) no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    box-shadow: 5px 5px 0px #334834;
+    border: #334834, solid, 2px;
+    box-sizing: inherit;
+    padding: 5px;
+    background: transparent;
+    align-items: center;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.menu{
+    background-color: #334834;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    line-height: 50px;
+}
+
+.menu p{
+    font-weight: 150;
+}
+
+.menu-btn{
+    color: #334834;
+    padding: 10px;
+    width: 120px;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.btn{
+    color: #334834;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    padding: 10px;
+    height: 40px;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition:  ease-in-out;
+    background-color: #334834;
+    color: white;
+    border: white solid 1px;
+}
