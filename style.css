@@ -22,9 +22,10 @@ a{
 
 header{
     background: url(image/home\ pg.avif) no-repeat;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav{
@@ -79,4 +80,10 @@ button:hover{
     background-color: #334834;
     color: white;
     border: white solid 1px;
+}
+
+@media(max-width:786px){
+    header{
+        min-height: 50vh;
+    }
 }
