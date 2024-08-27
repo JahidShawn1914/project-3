@@ -18,6 +18,7 @@ ul{
 a{
     text-decoration: none;
     color: #334834;
+    border-bottom: 2px solid transparent;
 }
 
 header{
@@ -48,6 +49,11 @@ nav ul{
     border-radius: 2px;
 }
 
+a:hover{
+    border-bottom: 2px solid  #334834;
+    transition: 0.2s ease-in-out;
+}
+
 .menu{
     background-color: #334834;
     color: white;
@@ -72,16 +78,130 @@ nav ul{
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
     padding: 10px;
     height: 40px;
+    border: 1px solid transparent;
 }
 
 button:hover{
     opacity: 0.8;
-    transition:  ease-in-out;
+    transition:ease-in-out;
     background-color: #334834;
     color: white;
-    border: white solid 1px;
+    border: solid 1px white;
 }
 
+.order{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+.order-img{
+    width: 50%;
+}
+.order-img img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.order-bg{
+    width: 50%;
+}
+.overr{
+    position: relative;
+    overflow: hidden;
+}
+.over{
+    position: absolute;
+    z-index: 2;
+    background-color: #334834;
+    color: white;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
+    height: 40%;
+    line-height: 50px;
+}
+.over h2{
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.order-bg img{
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.gift{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.gift-btn{
+    width: 50%;
+    background-color: #334834;
+    color: white;
+    text-align: center;
+}
+
+.gift-btn h2{
+    font-weight: 700;
+    font-size: 50px;
+    padding: 3rem 2rem 2.5rem;
+    margin: 200px 0 0;
+}
+.btn-sec{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.e-btn{
+    color: #334834;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    padding: 10px;
+    height: 40px;
+}
+.gift-img{
+    width: 50%;
+}
+.gift-img img{
+    width: 100%;
+    height: 100%;
+}
+.hero{
+   padding: 10px 10px;
+   height: 100%;
+   overflow: hidden;
+}
+.part-1 img{
+    padding: 5px;
+    display: flex;
+    width: 20%;
+    color: #0F2656;
+    float: left;
+}
+.part-2 img{
+    padding: 5px;
+    display: flex;
+    width: 20%;
+    color: #0F2656;
+    float: left;
+}
+
+footer{
+    background-color: #334834;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 100;
+}
 @media(max-width:786px){
     header{
         min-height: 50vh;
