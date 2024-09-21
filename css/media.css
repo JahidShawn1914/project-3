@@ -1,0 +1,63 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .insta-post{
+        width: 540px;
+    }
+
+    .img-item{
+        width: 100%;
+    }
+
+    nav ul{
+        display: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .insta-post{
+        width: 540px;
+    }
+
+    .img-item{
+        width: 100%;
+    }
+    nav ul{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .insta-post{
+        width: 720px;
+    }
+
+    .img-item{
+        width: 50%;
+    }
+
+    nav ul{
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .insta-post{
+        width: 960px;
+    }
+}
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .insta-post{
+        width: 1140px;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+    .insta-post{
+        width: 100%;
+    }
+}

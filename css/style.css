@@ -22,7 +22,7 @@ a{
 }
 
 header{
-    background: url(image/home\ pg.avif) no-repeat;
+    background: url(../image/home\ pg.avif) no-repeat;
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -73,11 +73,10 @@ a:hover{
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
 }
 
-.btn{
+.e-btn{
+    padding: 10px;
     color: #334834;
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
-    padding: 10px;
-    height: 40px;
     border: 1px solid transparent;
 }
 
@@ -146,8 +145,9 @@ button:hover{
     width: 50%;
     background-color: #334834;
     color: white;
-    text-align: center;
+    text-align: center; 
 }
+
 
 .gift-btn h2{
     font-weight: 700;
@@ -160,12 +160,7 @@ button:hover{
     justify-content: center;
     gap: 20px;
 }
-.e-btn{
-    color: #334834;
-    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
-    padding: 10px;
-    height: 40px;
-}
+
 .gift-img{
     width: 50%;
 }
@@ -174,23 +169,21 @@ button:hover{
     height: 100%;
 }
 .hero{
-   padding: 10px 10px;
-   height: 100%;
-   overflow: hidden;
+    padding: 10px;
 }
-.part-1 img{
-    padding: 5px;
-    display: flex;
-    width: 20%;
-    color: #0F2656;
-    float: left;
+
+.insta-post{
+    margin: 0 auto;
+    overflow: hidden;
 }
-.part-2 img{
-    padding: 5px;
-    display: flex;
-    width: 20%;
-    color: #0F2656;
+.img-item{
+    box-sizing: border-box;
     float: left;
+    width: 20%;
+    padding: 3px;
+}
+.img-item img{
+    width: 100%;
 }
 
 footer{
@@ -201,9 +194,4 @@ footer{
     letter-spacing: 3px;
     font-size: 16px;
     font-weight: 100;
-}
-@media(max-width:786px){
-    header{
-        min-height: 50vh;
-    }
 }
