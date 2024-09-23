@@ -54,25 +54,6 @@ a:hover{
     transition: 0.2s ease-in-out;
 }
 
-.menu{
-    background-color: #334834;
-    color: white;
-    text-align: center;
-    padding: 80px;
-    line-height: 50px;
-}
-
-.menu p{
-    font-weight: 150;
-}
-
-.menu-btn{
-    color: #334834;
-    padding: 10px;
-    width: 120px;
-    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
-}
-
 .e-btn{
     padding: 10px;
     color: #334834;
@@ -86,6 +67,18 @@ button:hover{
     background-color: #334834;
     color: white;
     border: solid 1px white;
+}
+
+.menu{
+    background-color: #334834;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    line-height: 50px;
+}
+
+.menu p{
+    font-weight: 150;
 }
 
 .order{
@@ -140,6 +133,7 @@ button:hover{
     margin: 0 auto;
 }
 .gift-btn{
+    padding: 80px;
     width: 50%;
     color: white;
     background-color: #334834;
