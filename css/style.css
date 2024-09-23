@@ -73,12 +73,13 @@ button:hover{
     background-color: #334834;
     color: white;
     text-align: center;
-    padding: 80px;
-    line-height: 50px;
+    padding-top: 5rem;
+    padding-bottom: 4.5rem;
 }
 
 .menu p{
     font-weight: 150;
+    line-height: 50px;
 }
 
 .order{
@@ -114,12 +115,15 @@ button:hover{
     transform: translate(-50%, -50%);
     text-align: center;
     width: 75%;
-    line-height: 50px;
 }
 .over h2{
     font-weight: 700;
     font-size: 50px;
     letter-spacing: 1px;
+}
+
+.over p{
+    line-height: 50px;
 }
 
 .order-bg img{
@@ -133,7 +137,6 @@ button:hover{
     margin: 0 auto;
 }
 .gift-btn{
-    padding: 80px;
     width: 50%;
     color: white;
     background-color: #334834;
