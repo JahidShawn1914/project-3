@@ -1,26 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 body{
     font-family: "Montserrat", sans-serif;
 }
-
 ul{
     list-style: none;
 }
-
 a{
     text-decoration: none;
     color: #334834;
     border-bottom: 2px solid transparent;
 }
-
 header{
     background: url(../image/home\ pg.avif) no-repeat;
     min-height: 100vh;
@@ -28,14 +23,12 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px ;
 }
-
 nav ul{
     display: flex;
     gap: 20px;
@@ -48,19 +41,16 @@ nav ul{
     background-color: white;
     border-radius: 2px;
 }
-
 a:hover{
     border-bottom: 2px solid  #334834;
     transition: 0.2s ease-in-out;
 }
-
 .e-btn{
     padding: 10px;
     color: #334834;
     box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
     border: 1px solid transparent;
 }
-
 button:hover{
     opacity: 0.8;
     transition:ease-in-out;
@@ -68,7 +58,6 @@ button:hover{
     color: white;
     border: solid 1px white;
 }
-
 .menu{
     background-color: #334834;
     color: white;
@@ -76,12 +65,15 @@ button:hover{
     padding-top: 5rem;
     padding-bottom: 4.5rem;
 }
-
+h2{
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
 .menu p{
     font-weight: 150;
     line-height: 50px;
 }
-
 .order{
     width: 100%;
     margin: 0 auto;
@@ -114,23 +106,17 @@ button:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    width: 75%;
+    width: 80%;
+    max-width: 80%;
+    max-height: 80%;
 }
-.over h2{
-    font-weight: 700;
-    font-size: 50px;
-    letter-spacing: 1px;
-}
-
 .over p{
     line-height: 50px;
 }
-
 .order-bg img{
     width: 100%;
     float: right;
 }
-
 .gift{
     width: 100%;
     display: flex;
@@ -142,19 +128,15 @@ button:hover{
     background-color: #334834;
     text-align: center; 
 }
-
-
-.gift-btn h2{
-    font-weight: 700;
-    font-size: 50px;
+.card-btn{
     padding: 3rem 2rem 2.5rem;
+    /* margin: 5rem auto; */
 }
 .btn-sec{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-
 .gift-img{
     width: 50%;
 }
@@ -164,7 +146,6 @@ button:hover{
 .hero{
     padding: 10px;
 }
-
 .insta-post{
     margin: 0 auto;
     overflow: hidden;
@@ -178,7 +159,6 @@ button:hover{
 .img-item img{
     width: 100%;
 }
-
 footer{
     background-color: #334834;
     color: white;

@@ -1,9 +1,11 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .insta-post{
+    body{
         width: 540px;
     }
-
+    h2{
+        font-size: 32px;
+    }
     .img-item{
         width: 50%;
     }
@@ -12,7 +14,6 @@
         display: none;
     }
     .order{
-        width: 540px;
         display: inline;
     }
     .order-img{
@@ -22,7 +23,6 @@
         width: 100%;
     }
     .gift{
-        width: 540px;
         display: inline;
     }
     .gift-btn{
@@ -35,9 +35,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-    .insta-post{
-        width: 540px;
-    }
+
 
     .img-item{
         width: 50%;
@@ -46,7 +44,6 @@
         display: none;
     }
     .order{
-        width: 540px;
         display: inline;
     }
     .order-img{
@@ -56,7 +53,6 @@
         width: 100%;
     }
     .gift{
-        width: 540px;
         display: inline;
     }
     .gift-btn{
@@ -70,10 +66,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .insta-post{
-        width: 720px;
-    }
-
     .img-item{
         width: 50%;
     }
@@ -82,7 +74,6 @@
         display: none;
     }
     .order{
-        width: 720px;
         display: inline;
     }
     .order-img{
@@ -92,33 +83,12 @@
         width: 100%;
     }
     .gift{
-        width: 720px;
         display: inline;
     }
     .gift-btn{
         width: 100%;
     }
     .gift-img{
-        width: 100%;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .insta-post{
-        width: 960px;
-    }
-}
-
-/* Extra extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-    .insta-post{
-        width: 1140px;
-    }
-}
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) {
-    .insta-post{
         width: 100%;
     }
 }
