@@ -16,13 +16,12 @@ a{
     color: #334834;
     border-bottom: 2px solid transparent;
 }
-
-
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px ;
+    margin: 0 auto;
 }
 nav ul{
     display: flex;
@@ -126,6 +125,7 @@ h2{
     background-color: #334834;
     text-align: center; 
 }
+
 
 .btn-sec{
     padding: 20px;

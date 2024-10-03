@@ -97,15 +97,39 @@
     h2{
         font-size: 30px;
     }
+    .card-btn{
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
 }
 
 /* Extra extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .card-btn{
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
 
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
     h2{
         font-size: 47px;
+    }
+    .card-btn{
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
 }
