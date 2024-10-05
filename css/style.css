@@ -8,20 +8,10 @@
 body{
     font-family: "Montserrat", sans-serif;
 }
-ul{
-    list-style: none;
-}
 a{
     text-decoration: none;
     color: #334834;
     border-bottom: 2px solid transparent;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px ;
-    margin: 0 auto;
 }
 nav ul{
     display: flex;
@@ -30,15 +20,11 @@ nav ul{
     border: #334834, solid, 2px;
     box-sizing: inherit;
     padding: 5px;
-    background: transparent;
     align-items: center;
     background-color: white;
     border-radius: 2px;
 }
-a:hover{
-    border-bottom: 2px solid  #334834;
-    transition: 0.2s ease-in-out;
-}
+
 .e-btn{
     padding: 10px;
     color: #334834;

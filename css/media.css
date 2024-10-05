@@ -9,10 +9,6 @@
     .img-item{
         width: 50%;
     }
-
-    nav ul{
-        display: none;
-    }
     .order{
         display: inline;
     }
@@ -40,9 +36,6 @@
     .img-item{
         width: 50%;
     }
-    nav ul{
-        display: none;
-    }
     .order{
         display: inline;
     }
@@ -68,10 +61,6 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
     .img-item{
         width: 50%;
-    }
-
-    nav ul{
-        display: none;
     }
     .order{
         display: inline;
