@@ -13,6 +13,12 @@ a{
     color: #334834;
     border-bottom: 2px solid transparent;
 }
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+    background-color: transparent;
+}
 nav ul{
     display: flex;
     gap: 20px;
@@ -23,6 +29,9 @@ nav ul{
     align-items: center;
     background-color: white;
     border-radius: 2px;
+}
+.dropdown-menu{
+    position: absolute !important;
 }
 
 .e-btn{
